@@ -226,7 +226,7 @@ hr {
 
 /* > If it is an image... */
 img.logo {
-  max-height: 2rem;
+  max-height: 6rem;
   image-rendering: optimizeQuality;
 }
 
