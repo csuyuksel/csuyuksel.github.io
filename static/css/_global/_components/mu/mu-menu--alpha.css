@@ -1,0 +1,49 @@
+/*** MU-MENU--ALPHA.CSS v1.0 (last updated June 2024)
+- This is a Utility Module (MU); a primary menu (variation: alpha).
+- An active template is available within Header.html.
+##########################
+***/
+
+/* #region # MAIN */
+/* ########################## */
+
+.mu-menu--alpha {
+  position: relative;
+}
+
+.mu-menu--alpha > .mu-menu--alpha-item-parent {
+  margin-bottom: 1rem;
+  border-bottom: 0.25rem solid var(--color-white);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.mu-menu--alpha > .mu-menu--alpha-item-parent > a:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.mu-menu--alpha .mu-menu--alpha-submenu {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.mu-menu--alpha .mu-menu--alpha-submenu li {
+  margin-bottom: 0.25rem;
+  font-size: 1.167rem;
+  font-weight: 600;
+}
+
+.mu-menu--alpha .mu-menu--alpha-submenu li:has(span) {
+  margin-bottom: 0.5rem;
+}
+
+.mu-menu--alpha .mu-menu--alpha-submenu span.paragraph {
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+  color: var(--color-light);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* #endregion */
